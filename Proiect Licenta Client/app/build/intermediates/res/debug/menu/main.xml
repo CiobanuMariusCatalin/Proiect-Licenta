@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.proiect_licenta_client.MainActivity" >
+  <item android:id="@+id/search"
+          android:title="@string/search_title"
+          android:icon="@drawable/lupa"
+          android:showAsAction="collapseActionView|ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+
+
+</menu>
+<!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/menu/main.xml -->

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:padding="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/friendRecommandationFragmentPozaProfil"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/poza"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/grey"
+                >
+            </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/friendRecommandationFragmentAutor"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/friendRecommandationFragmentNrPrieteniInComun"
+                android:layout_width="wrap_content"
+                android:textSize="9sp"
+                android:layout_height="wrap_content"
+                />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+            <Button
+                android:id="@+id/friendRecommandationFragmentAddFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"
+                android:text="Adauga prieten"
+                />
+            <ImageButton
+                android:id="@+id/friendRecommandationFragmentRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/Remove"
+                android:src="@drawable/ic_action_remove"
+                android:text="@string/Remove"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+<!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/layout/friend_reccomandation_fragment.xml -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:id="@+id/paginaSignUpUser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:maxLength="13"
+        android:hint="@string/numeUtilizator"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:id="@+id/PaginaSignUpEroareParola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="50"
+        android:text="@string/gol" />
+
+    <EditText
+        android:id="@+id/paginaSignUpParola"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:maxLength="50"
+        android:hint="@string/Parola"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/paginaSignUpParolaConfirmare"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirmareParola"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/paginaSignUpButtonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SignUp"
+        android:text="Inregistrare" />
+
+</LinearLayout><!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/layout/pagina_sign_up.xml -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/light_grey">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_eu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="eu" />
+
+        <RadioButton
+            android:id="@+id/radio_prieteni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="prieteni" />
+
+        <RadioButton
+            android:id="@+id/radio_toti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:checked="true"
+            android:text="toti" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/PaginaVizibilitateDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="done"
+        android:text="Actualizeaza" />
+</LinearLayout><!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/layout/pagina_vizibilitate_post.xml -->

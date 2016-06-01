@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/mesajFragmentContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/mesajFragmentContainer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/mesajeFragmentMesaj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+
+            <TextView
+                android:id="@+id/mesajeFragmentData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:textSize="9sp" />
+        </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/layout/mesaje_fragment.xml -->

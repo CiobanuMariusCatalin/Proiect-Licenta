@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    >
+    <TextView
+        android:id="@+id/paginaArhivaPrieteniTemporariNuSuntElemente"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Nu exista persoane in arhiva de prieteni temporari"
+        android:visibility="gone"/>
+    <ListView
+        android:id="@+id/PaginaArhivaPriteniTemporariListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="20.0sp"
+        android:divider="@android:color/transparent"
+        android:layout_margin="10dp">
+    </ListView>
+
+</LinearLayout ><!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/layout/pagina_arhiva_prieteni_temporari.xml -->

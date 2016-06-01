@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="60dp"
+        android:background="@color/blue"
+        android:gravity="center">
+    <ImageView
+        android:id="@+id/PaginaProfilPozaDeProfil"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:background="@color/grey"
+        android:contentDescription="@string/poza"
+        android:padding="0dp"
+        android:visibility="gone" />
+        <TextView
+            android:id="@+id/paginaProfilNumeleOwnerului"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/paginaProfilLocul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/paginaProfilPuncte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+        <Button
+            android:id="@+id/PaginaProfilSchimaStatusPrietenie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="schimbaStatusPrietenie"
+            android:text="@string/gol"
+            android:textSize="9sp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/PaginaProfilDeclineFriendRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="RefuzaCererePrietenie"
+            android:text="Refuza cererea de prietenie"
+            android:textSize="9sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/PaginaProfilShimbaPozaProfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="loadProfilePciturefromGallery"
+            android:text="SchimbaPozaProfil"
+            android:textSize="9sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/PaginaProfilFriendList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="friendList"
+            android:text="Lista prieteni"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/PaginaProfilPaginaMesaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goPaginaMesaje"
+            android:text="@string/mesaje"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/PaginaProfilButtonInterese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Interese"
+            android:text="@string/Interese"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+</LinearLayout>

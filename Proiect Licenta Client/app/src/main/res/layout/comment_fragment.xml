@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/commentFragmentPozaProfil"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/grey"
+                android:contentDescription="@string/poza"></ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/commentFragmentAutor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/commentFragmentDataPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey"
+                    android:textSize="9sp" />
+                <TextView
+                    android:id="@+id/commentFragmentMesaj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/commentFragmentImg"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="0dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/poza"
+                    android:padding="0dp"
+                    android:visibility="gone"></ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/commentFragmentRemoveComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/Remove"
+            android:src="@drawable/ic_action_remove"
+            android:text="@string/Remove"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

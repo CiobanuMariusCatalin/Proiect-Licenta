@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/>
+    <stroke android:width="2dp" android:color="#000000"/>
+    <corners android:radius="3dp" />
+
+</shape><!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/drawable-ldpi/shape.xml -->

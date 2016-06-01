@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/paginaPrincipalaButtonProfil"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="ProfilUserCurent"
+        android:text="Profil" />
+
+    <Button
+        android:id="@+id/paginaPrincipalaButtonInterese"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="Interese"
+        android:text="@string/Interese" />
+    <Button
+        android:id="@+id/paginaPrincipalaButtonLogOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:onClick="logout"
+        android:text="Delogare" />
+
+</LinearLayout>

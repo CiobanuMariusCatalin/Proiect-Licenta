@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <CheckBox android:id="@+id/IntereseFragmentCheckbox"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        />
+    <RatingBar
+        android:id="@+id/IntereseFragmentCheckboxRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="3"
+        android:stepSize="1.00"
+        android:rating="1.0"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+     />
+</RelativeLayout>

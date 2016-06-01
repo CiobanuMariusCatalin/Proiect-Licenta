@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+    android:background="@color/light_grey"
+    >
+    <TextView
+        android:id="@+id/PaginaSearchQuery"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+         />
+
+    <ListView
+        android:id="@+id/PaginaSearchListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:dividerHeight="20.0sp"
+        android:divider="@android:color/transparent">
+    </ListView>
+
+</LinearLayout ><!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/layout/pagina_search.xml -->

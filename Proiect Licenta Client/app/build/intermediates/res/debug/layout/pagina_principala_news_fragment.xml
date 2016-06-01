@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+    <TextView
+        android:id="@+id/paginaPricipalaNewsFeedNuSuntPosturi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="Pagina de stiri nu are nici un post de afisat"/>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="20.0dp">
+    </ListView>
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <LinearLayout
+        android:id="@+id/PaginaNewsFeedMeniuDeJos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#CCA1CAF1"
+        android:focusableInTouchMode="true">
+        <ImageButton
+            android:id="@+id/PaginaNewsFeedAddPoza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_picture"
+            android:onClick="loadImagefromGallery"
+            android:background="@android:color/transparent"
+            android:text="addPoza"  />
+        <EditText
+            android:id="@+id/PaginaNewsFeedAddMessager"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="500"
+            android:hint="@string/Comenteaza"
+            android:inputType="textAutoComplete"
+            />
+        <Button
+            android:id="@+id/PaginaNewsFeedAlegeVizibilitatea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="alegeVizibilitateaPostului"
+            android:text="toti"
+            android:textSize="9sp"
+            />
+        <ImageButton
+            android:id="@+id/PaginaNewsFeedButtonAddMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_send_now"
+            android:text="@string/addMessage"
+            android:background="@android:color/transparent"
+            android:onClick="addMessage" />
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/C:/BackUp/Universitate/Proiect%20Licenta/Proiect%20Licenta%20Client/app/src/main/res/layout/pagina_principala_news_fragment.xml -->

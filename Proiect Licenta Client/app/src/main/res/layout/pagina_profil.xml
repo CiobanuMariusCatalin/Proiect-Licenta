@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/PaginaProfilParinte"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+
+>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/paginaProfilNuSuntPosturi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nu exista posturi pe aceasta pagina de profil"
+                android:visibility="gone"/>
+
+
+    />
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ListView
+            android:id="@+id/PaginaProfilListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:dividerHeight="20.0sp"
+            android:divider="@android:color/transparent">
+        </ListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/PaginaProfilMeniuDeJos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#CCA1CAF1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:focusableInTouchMode="true"
+            >
+
+            <ImageButton
+                android:id="@+id/PaginaProfilAddPoza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="loadImagefromGallery"
+                android:src="@drawable/ic_action_picture"
+                android:text="addPoza" />
+
+            <EditText
+                android:id="@+id/PaginaProfilAddMessager"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLength="500"
+                android:hint="@string/Comenteaza"
+                android:inputType="textAutoComplete"
+                />
+            <Button
+                android:id="@+id/PaginaProfilAlegeVizibilitatea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="alegeVizibilitateaPostului"
+                android:text="toti"
+                android:textSize="9sp"
+                android:visibility="gone"
+                />
+            <ImageButton
+                android:id="@+id/PaginaProfilButtonAddMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="addMessage"
+                android:src="@drawable/ic_action_send_now"
+                android:text="@string/addMessage" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,5 @@
+C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\classes\debug
+C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f4e861dafe76daf1b9960fba8d7e6ec55d954c50.jar
+C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c2c56e8aeebc3d0eee734afeee736db5dc650847.jar
+C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\classes-6998739aaa03b6a082f4a1a5e3f11500088048ae.jar
+C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\classes-d45a45c8cf31a0158da1bce3995828808219769e.jar
