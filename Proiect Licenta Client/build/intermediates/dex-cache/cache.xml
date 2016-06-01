@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\src\main\java\libs\disklrucache-2.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\disklrucache-2.0.2-8539f6e058d95d78f2bb532a9a88465a1b0d0388.jar" />
+    </item>
+    <item
+        jar="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\classes-d45a45c8cf31a0158da1bce3995828808219769e.jar" />
+    </item>
+    <item
+        jar="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\src\main\java\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-5976052022f2b628e81426eb44456fa6e94185f7.jar" />
+    </item>
+    <item
+        jar="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\classes-6998739aaa03b6a082f4a1a5e3f11500088048ae.jar" />
+    </item>
+    <item
+        jar="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c2c56e8aeebc3d0eee734afeee736db5dc650847.jar" />
+    </item>
+    <item
+        jar="C:\Users\cash0151\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\BackUp\Universitate\Proiect Licenta\Proiect Licenta Client\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f4e861dafe76daf1b9960fba8d7e6ec55d954c50.jar" />
+    </item>
+
+</items>
